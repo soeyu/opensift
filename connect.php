@@ -4,7 +4,7 @@ $dbuser = 'root';
 $dbpwd = getenv("MYSQL_PASSWORD");
 $dbname = getenv("MYSQL_USER");
 $conn=mysqli_connect($dbhost.":3306",$dbuser,$dbpwd);
-if(!$conn){echo "no";}
+if(!$conn){echo "no _";}
 else{
 	echo "done";
 }
